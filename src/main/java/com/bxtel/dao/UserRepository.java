@@ -16,7 +16,6 @@ public interface UserRepository extends CrudRepository<User, Long> {
     public User findById(long id);
     
     
-    
     /**
      * 第二种情况缓存,处理能根据 spring data jpa 扩展的方法.
      * @return
